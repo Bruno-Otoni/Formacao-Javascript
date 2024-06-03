@@ -23,18 +23,30 @@
 </head>
 
 <body>
-    <section class="content">
-        <h1> Pokedex </h1>
+    <header>
+        <nav class="navbar">
+            <a href="#logo"><img src="assets/images/download (1).png" alt="figura de uma pokedex"></a>
 
-        <ol id="pokemonList" class="pokemons"></ol>
+            <input class="search" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+            <button class="btn-search" type="submit">Buscar</button>
+        </nav>
+    </header>
 
-        <div class="pagination">
-            <button id="loadMoreButton" type="button">
-                Load More
-            </button>
-        </div>
+    <main>
+        <section class="content">
 
-    </section>
+            <ol id="pokemonList" class="pokemons"></ol>
+
+            <div class="pagination">
+                <button id="loadMoreButton" type="button">
+                    Load More
+                </button>
+            </div>
+
+        </section>
+    </main>
+
+    <footer></footer>
 
     <!-- Link Javascript -->
     <script src="assets/js/pokemon-model.js"></script>
