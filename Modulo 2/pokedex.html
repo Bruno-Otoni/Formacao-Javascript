@@ -14,6 +14,7 @@
     <!-- Link CSS -->
     <link rel="stylesheet" href="assets/css/global.css">
     <link rel="stylesheet" href="assets/css/pokedex.css">
+    <link rel="stylesheet" href="assets/css/modal.css">
 
     <!-- Font = Roboto -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,7 +35,7 @@
 
     <main>
         <section class="content">
-            
+
             <ol id="pokemonList" class="pokemons"></ol>
 
             <div class="pagination">
@@ -46,16 +47,39 @@
                     <a href="#home">Voltar</a>
                 </button>
             </div>
-
         </section>
+
+        <!--Modal-->
+
+        <div id="fade" class="hide"></div>
+
+        <div id="modal" class="hide">
+            <div class="modal-header">
+                <h2>INFORMAÇÕES DO POKEMON</h2>
+            </div>
+
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur quasi deleniti doloremque
+                    quis ipsum. Blanditiis magnam, in fugiat corrupti molestias quibusdam numquam recusandae
+                    reiciendis praesentium. Beatae illo provident eligendi maxime?</p>
+            </div>
+            <div class="modal-footer">
+                <button id="close-modal">Fechar</button>
+            </div>
+        </div>
+
     </main>
 
-    <footer></footer>
+    <footer>
+        <p>Site feito para projeto estudantil, todos as informações aqui disponiveis são retiradas e de direito do <a
+                href="https://pokeapi.co">Poke API</a></p>
+    </footer>
 
     <!-- Link Javascript -->
     <script src="assets/js/pokemon-model.js"></script>
     <script src="assets/js/poke-api.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/modal.js" defer></script>
 
 </body>
 

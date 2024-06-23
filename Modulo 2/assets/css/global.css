@@ -1,4 +1,3 @@
-
 * {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
@@ -16,6 +15,17 @@ header {
     width: 100%;
     height: 100px;
     align-items: center;
+}
+
+footer {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+footer p {
+    font-size: .5rem;
+    font-weight: bold;
 }
 
 .navbar {
@@ -53,16 +63,6 @@ nav button {
     width: 100vw;
     padding: 1rem;
     background-color: #fff;
-
-}
-
-.box {
-    transition: .5s;
-    cursor: pointer;
-}
-
-.box:hover {
-    transform: scale(1.1);
 }
 
 @media screen and (min-width: 768px) {

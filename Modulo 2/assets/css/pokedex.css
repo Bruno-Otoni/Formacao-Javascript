@@ -156,11 +156,12 @@
     color: white;
 }
 
-.about {
-   font-size: .55rem;
-   color: white;
-   background: border-box;
-   border: none;
+.box {
+    transition: .5s;
+}
+
+.box:hover {
+    transform: scale(1.1);
 }
 
 @media screen and (min-width: 380px) {

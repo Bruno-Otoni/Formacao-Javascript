@@ -21,8 +21,9 @@ function loadPokemonItens(offset, limit) {
                         <img src="${pokemon.photo}"
                             alt="${pokemon.name}">
                     </div>
-                    <button class= "about" id="modal">Info</button>
+                    <button id= "open-modal" class= "about">Info</button>
                 </li>
+                
         `).join('')
 
         pokemonList.innerHTML += newHtml
