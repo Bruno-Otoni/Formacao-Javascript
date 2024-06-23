@@ -127,7 +127,7 @@
 
 .pokemon .detail img {
     max-width: 100%;
-    height: 80px;
+    height: 50px;
     align-self: flex-end;
 }
 
@@ -142,13 +142,25 @@
 
 .pagination button {
     padding: 10px;
-    margin: .25rem 0;
+    margin: .25rem 10px;
     font-size: 1rem;
     color: #fff;
     background: lightslategray;
     border: none;
     border-radius: 1rem;
 
+}
+
+#b-home a {
+    text-decoration: none;
+    color: white;
+}
+
+.about {
+   font-size: .55rem;
+   color: white;
+   background: border-box;
+   border: none;
 }
 
 @media screen and (min-width: 380px) {
@@ -165,7 +177,7 @@
 
 @media screen and (min-width: 992px) {
     .pokemons {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 2fr 2fr 2fr 2fr;
     }
 }
 
