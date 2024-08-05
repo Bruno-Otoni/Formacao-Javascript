@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio</title>
+    <title>Portfólio</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
@@ -12,6 +12,7 @@
 
     <link rel="stylesheet" href="Assets/CSS/global.css">
     <link rel="stylesheet" href="Assets/CSS/style.css">
+    <link rel="stylesheet" href="Assets/CSS/acordeon.css">
 
 </head>
 
@@ -24,20 +25,61 @@
             <h1 class="title">Bem vindo, eu sou o Bruno Otoni</h1>
 
             <section class="information">
-                <p>Developer Junior</p>
-                <p>São Paulo - BR</p>
-                <p>+55 11 98210-4820</p>
-                <p>botoni@gmail.com</p>
+                <p class="job">Developer Junior</p>
+                <p class="location">São Paulo - BR</p>
+                <p class="contact">+55 11 98210-4820</p>
+                <p class="email">botoni@gmail.com</p>
             </section>
         </header>
 
         <main>
-            <section class="acordeon">
-                <button class="trigger">Skills</button>
+            <section class="acordeon open">
+                <button class="trigger" type="button">
+                    Skills
+                </button>
                 <div class="content">
-
+                    <h3>Habilidades Profissionais</h3>
                 </div>
-               
+            </section>
+
+            <section class="acordeon open">
+                <button class="trigger" type="button">
+                    Idiomas
+                </button>
+                <div class="content">
+                    <ul class="languages">
+                        <li>Português (nativo)</li>
+                        <li>Inglês (básico)</li>
+                        <li>Espanhol (básico)</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="acordeon open">
+                <button class="trigger" type="button">
+                    Portfólio
+                </button>
+                <div class="content">
+                    <ul class="portfolio">
+                        <li>
+                            <span class="title github">Formação HTML</span>
+                            <a href="https://github.com/Bruno-Otoni/Formacao-HTML.git" target="_blank">
+                                Bruno-Otoni/Formacao-HTML.git</a>
+                        </li>
+                        <li>
+                            <span class="title github">Formação CSS</span>
+                            <a href="https://github.com/Bruno-Otoni/formacao-CSS.git" target="_blank">
+                                Bruno-Otoni/Formacao-CSS.git
+                            </a>
+                        </li>
+                        <li>
+                            <span class="title github">Formação Javascript</span>
+                            <a href="https://github.com/Bruno-Otoni/Formacao-Javascript.git" target="_blank">
+                                Bruno-Otoni/Formacao-Javascript.git
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </section>
         </main>
 
