@@ -240,6 +240,18 @@
   padding: 0.5rem;
 }
 
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+footer img {
+  max-width: 80px;
+}
+
 @media only screen and (min-width: 768px) {
   .box {
     max-width: 750px;

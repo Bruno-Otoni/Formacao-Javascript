@@ -1,78 +1,81 @@
 {
-    "name": "Renan J Paula",
-    "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
-    "job": "Tech Lead no S3 Bank",
+    "name": "Bruno Otoni",
+    "photo": "https://media.licdn.com/dms/image/C4D03AQHPR9SMl0y-Bg/profile-displayphoto-shrink_800_800/0/1517022714345?e=1729123200&v=beta&t=xo6SvG5f5DOVIhFIzSE-uhgjVuPRubFet5YZMtLnxAM",
+    "job": "Especialista em Segurança Corporativa / Developer Junior",
     "location": "São Paulo - SP",
-    "phone": "(16) 98159-7656",
-    "email": "renanjohannsen@gmail.com",
+    "phone": "11 98210-4820",
+    "email": "botoni@gmail.com",
     "skills": {
-      "hardSkills": [
-        {
-          "name": "Nodejs",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
-        },
-        {
-          "name": "Java",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
-        },
-        {
-          "name": "Angular",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
-        },
-        {
-          "name": "React",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
-        },
-        {
-          "name": "Mongodb",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
-        },
-        {
-          "name": "Postgresql",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
-        }
-      ],
-      "softSkills": [
-        "Empatia",
-        "Liderança",
-        "Trabalho em equipe",
-        "Flexibilidade",
-        "Organização"
-      ]
+        "hardSkills": [
+            {
+                "name": "HTML",
+                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/html.png"
+            },
+            {
+                "name": "CSS",
+                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/css.png"
+            },
+            {
+                "name": "JavaScript",
+                "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/js.png"
+            }
+        ],
+        "softSkills": [
+            "Facilidade de Aprendizado",
+            "Liderança",
+            "Trabalho em equipe",
+            "Flexibilidade",
+            "Organização",
+            "Boa Comunicação"
+        ]
     },
     "languages": [
-      "Português BR",
-      "Inglês (intermediário)",
-      "Espanhol (intermediário)",
-      "Italiano (iniciante)"
+        "Português BR (nativo",
+        "Inglês (básico)",
+        "Espanhol (básico)"
     ],
     "portfolio": [
-      {
-        "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-        "url": "https://github.com/RenanJPaula/js-developer-pokedex",
-        "github": true
-      },
-      {
-        "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-        "url": "https://github.com/RenanJPaula/js-developer-portfolio",
-        "github": true
-      }
+        {
+            "name": "Formação HTML",
+            "url": "https://github.com/Bruno-Otoni/Formacao-HTML.git",
+            "github": true
+        },
+        {
+            "name": "Formação CSS",
+            "url": "https://github.com/Bruno-Otoni/formacao-CSS.git",
+            "github": true
+        },
+        {
+            "name": "Formação JavaScript",
+            "url": "https://github.com/Bruno-Otoni/Formacao-Javascript.git",
+            "github": true
+        }
     ],
     "professionalExperience": [
-      {
-        "name": "Arquiteto de software / S3 BANK",
-        "period": "2022 - até o momento",
-        "description": "É um prazer trabalhar ao lado de tantos profissionais excepcionais e construir tantas inovações de mercado."
-      },
-      {
-        "name": "Software Engineering Lead / DIO",
-        "period": "2021 - 2022",
-        "description": "Foi um grande prazer fazer parte deste time fantástico e poder contribuir com a transformação de tantas vidas."
-      },
-      {
-        "name": "CEO / Brain Machine",
-        "period": "2016 - 2021",
-        "description": "Anos incríveis ao lado de pessoas maravilhosas ajudando muitas empresas por todo o mundo."
-      }
+        {
+            "name": "Inspetor de Segurança Corporativa - Atento Brasil",
+            "period": "Maio/2019 - até o momento",
+            "description": "Consultoria e Auditoria dos sites, referente as questões sobre Segurança Patrimonial e Corporativa. Atualização e acompanhamento de processos, normas e políticas de Segurança em nível nacional. Formulação e apresentação de treinamentos periódicos e workshops anuais para equipes de facilities (Portaria e Recepção). Coleta e análise de imagens de eventos para tratativa de incidentes, investigações diversas ou que tenham sido solicitadas por órgãos públicos para averiguação. Representação da empresa junto aos órgãos públicos e Conselhos de Segurança da região em que estão localizados os sites. Acompanhamento de auditoria de clientes, fornecendo evidencias solicitadas para verificação de conformidades contratuais. Consultoria para implantação de novas tecnologias de segurança, realizando levantamento das inovações na área, reunião com os fornecedores, implantação e acompanhamento de POC's (Prova de Conceito)."
+        },
+        {
+            "name": "Gestor Operacional - Space Intelligent",
+            "period": "Novembro/2014 - Março/2017",
+            "description": "<p>Atuando desde a pré-venda fazendo a vistoria com relatório de levantamento de riscos (Mosler e T-Fine) e equipamentos sugeridos para apresentação de proposta orçamentária para implantação de portaria digital, automatização do condomínio através de equipamentos que permitam a abertura de portões a distância e presencialmente por biometria, chaveiro magnético (TAG) ou senha numérica, controle de garagem (Módulo Linear) e CFTV para monitoramento. Após fechamento de contrato, acompanhamento de obras de instalação de equipamentos com suporte ao cliente sobre o andamento da obra e cumprimento de prazos, cadastro de moradores e prestadores no banco de dados para uso do software de atendimento a distância através de coleta biométrica. Integração dos softwares de monitoramento do cliente aos da empresa (D-Guard), coleta e análise de imagens de eventos para formulação de relatórios referentes a sinistros, eventos diversos ou que tenham sido solicitados para averiguação. Formulação de manuais de atendimento individuais para cada cliente, treinamento para operadores (atendimento e monitoramento) referente à portaria e segurança, com foco em agilidade de atendimento e principais zonas de monitoramento.Gestão da equipe operacional (atendimento, portaria e monitoramento) através de treinamentos,feedbacks, controle de faltas, folgas, escalas, férias, horas extras e banco de horas. Relatórios gerenciais sobre andamento das implantações, recursos humanos, entre outros. Representação da empresa em reuniões de condomínio referentes à portaria e segurança, e junto aos órgãos públicos quando necessário. Suporte ao cliente para melhorias futuras nos sistemas de segurança e atendimento, através de apresentação de novas tecnologias e equipamentos."
+        },
+        {
+            "name": "Inspetor de Segurança Patrimonial - Grupo CR5",
+            "period": "Outubro/2013 - Março/2014",
+            "description": "Inspeção interna em metalúrgica com equipe de 36 colaboradores, divididos em vigilantes, recepcionistas e porteiros, fazendo a gestão da equipe através de feedbacks, controle de escalas de folga, falta, férias, horas extras. Verificação de materiais carga, acompanhamento de normas e procedimentos,  visando melhorias tanto em segurança como em agilidade de atendimento."
+        },
+        {
+            "name":"Gerente de Segurança Patrimonial - GA Global Advising",
+            "period":"Janeiro/2013 - Maio/2013",
+            "description":"Gerente de segurança em Centro Empresarial de grande porte com equipe de 20 colaboradores, divididos em operadores de monitoramento, porteiros, recepcionistas, vigilantes e bombeiros civis. Acompanhamento de normas e procedimentos, de acordo com os padrões estabelecidos pelo cliente. Treinamentos mensais sobre segurança, comportamento e atendimento. Atendimento de VIP's para pousos e decolagens em heliponto diariamente. Relatórios mensais ao cliente contendo os dados de acesso ao condomínio, quantidade de pousos, atendimentos médicos, ocorrências/sinistros, treinamentos efetuados e melhorias sugeridas."
+        },
+        {
+            "name":"Vigilante Patrimonial - Prosegur do Brasil",
+            "period":"Dezembro/2004 - Janeiro/2013",
+            "description":"Controle de acesso de funcionários e visitantes, acompanhamento de prestadores de serviço pelas dependências da empresa, monitoramento de CFTV, prevenção de roubos e furtos em geral, formulação de planilhas, entre outros serviços competentes a área."
+        }
     ]
-  }
+}
