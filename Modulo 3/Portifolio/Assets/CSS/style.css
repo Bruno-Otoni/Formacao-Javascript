@@ -170,7 +170,7 @@
 }
 
 .portfolio li .title.github::before {
-    content: "";
+  content: "";
   display: inline-block;
   width: 1rem;
   height: 1rem;
@@ -178,6 +178,66 @@
   background-image: url(../Images/iconmonstr-github-1\ 1.svg);
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.experience li .period {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.experience li .period::before {
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+  background-image: url(../Images/calendar.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills .tools ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skills .tools ul li img {
+  max-width: 80px;
+  max-height: 80px;
+  margin: 0.5rem;
+}
+
+.skills .personal ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.skills .personal ul li {
+  margin-left: 2rem;
+  padding: 0.5rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -203,7 +263,26 @@
 
   .header .information {
     grid-area: information;
-    align-items: center;
+    align-items: flex-start;
+    margin: 0 3rem;
+  }
+
+  .header::after {
+    content: "";
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../Images/header.svg);
+    position: absolute;
+    top: 0;
+    right: 1rem;
+  }
+
+  .skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -230,6 +309,7 @@
 
   .header .information {
     grid-area: information;
-    align-items: center;
+    align-items: flex-start;
+    margin: 0 5rem;
   }
 }
