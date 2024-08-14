@@ -1,0 +1,163 @@
+header.menu {
+  height: 4.5rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  cursor: auto !important;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+  width: 100%;
+  margin-top: 5.5rem;
+}
+
+header nav {
+  color: #ffffff;
+  display: flex;
+  width: 90vw;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav #title h1 {
+  font-size: 3rem;
+}
+
+header nav #hamburguer label {
+  font-size: 2rem;
+}
+
+header nav div ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  list-style: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+header nav div ul li {
+  margin: 5px 7px;
+}
+
+header nav div ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+main aside div a {
+  font-size: 0.6rem;
+}
+
+.photo,
+.description,
+.counter__friend,
+.counter__community {
+  border: 1px solid #f399c9;
+  width: 100%;
+  height: 300px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+.photo {
+  height: 300px;
+  border-top-right-radius: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 80vw;
+}
+
+.photo div {
+  margin-left: 10px;
+}
+
+.photo__avatar figure img {
+  border-radius: 15px;
+  margin: 15px 0 5px 15px;
+}
+
+.photo__name h1 {
+  font-size: 1.1rem;
+  margin: 0 0 10px 10px;
+}
+
+.photo__tools div i {
+  font-size: 0.7rem;
+  margin-right: 0.3rem;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  max-width: 600px;
+}
+
+.description h1 {
+  margin: 10px 0 0 10px;
+}
+
+.description__menu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+}
+
+.description__menu ul li {
+  margin: 10px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.counter__community,
+.counter__friend {
+  display: flex;
+  flex-flow: row wrap;
+  height: 40vh;
+  width: 80vw;
+  justify-content: flex-start;
+  overflow: auto;
+}
+
+.counter__community h3,
+.counter__friend h3 {
+  margin: 10px 0 0 10px;
+  width: 100%;
+}
+
+.counter__friend__photo figure img {
+  max-width: 65px;
+  max-height: 65px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 5px;
+}
+.counter__friend__photo p {
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin: 0 10px;
+}
+
+.counter__community__photo figure img {
+  max-width: 65px;
+  max-height: 65px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 5px;
+}
+
+.counter__community__photo p {
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin: 0 5px;
+}

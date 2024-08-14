@@ -1,8 +1,3 @@
-:root {
-  background-color: #f0c9ea;
-  font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
-}
-
 .container {
   width: 80%;
   height: 70vh;
@@ -21,7 +16,7 @@
   padding: 0.5rem;
 }
 
-.pink-font {
+.orkut-font-color {
   color: #e8258e;
 }
 
@@ -61,12 +56,11 @@
 #btnlogin {
   width: 100%;
   border: none;
-  background-color: #e8258e;
   color: #fff;
   padding: 0.75rem;
   border-radius: 5px;
   margin-bottom: 10px;
-  cursor: pointer;
+  font-weight: bold;
 }
 
 #btnlogin:hover {
@@ -85,11 +79,16 @@
   margin-bottom: 20%;
 }
 
+.fields__recovery:hover {
+    text-decoration: underline;
+}
+
 .fields__create {
   display: flex;
   justify-content: center;
   font-size: 1.3rem;
   font-weight: bold;
+  margin-top: 3rem;
 }
 
 .fields__create:hover {

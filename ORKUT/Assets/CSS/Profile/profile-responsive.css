@@ -1,0 +1,42 @@
+.photo__tools__messages a:hover {
+  text-decoration: underline;
+}
+
+.photo__tools__editar a:hover {
+  text-decoration: underline;
+}
+
+.photo__tools__gallery a:hover {
+  text-decoration: underline;
+}
+
+.photo__tools__depositions a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 650px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  header nav div ul {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .photo {
+    max-width: 250px;
+  }
+  .counter__community,
+  .counter__friend {
+    height: 40vh;
+    width: 30vw;
+  }
+
+  .counter__friend__photo figure img {
+    max-width: 65px;
+    max-height: 65px;
+  }
+}
